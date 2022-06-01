@@ -1,9 +1,6 @@
 pipeline {
     agent { 
-        dockerfile {
-            dir 'C://ProgramData//Jenkins//.jenkins//workspace//FirstDocker//'
-            filename 'Dockerfile'
-        }
+       agent { dockerfile true }
     }
     stages {
         stage('Test') {
