@@ -2,3 +2,5 @@
 
 log.info 'Starting'
 log.warning 'Nothing to do!'
+log.call 'Hetvi'
+sayHello.call 'Testing'
