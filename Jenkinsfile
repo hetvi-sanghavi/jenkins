@@ -1,11 +1,4 @@
-pipeline {
-    agent { dockerfile true }
-    stages {
-        stage('Test') {
-            steps {
-                sh 'node --version'
-                sh 'svn --version'
-            }
-        }
-    }
-}
+@Library('utils') _
+
+log.info 'Starting'
+log.warning 'Nothing to do!'
